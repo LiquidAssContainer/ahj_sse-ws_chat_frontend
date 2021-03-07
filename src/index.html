@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WSChat</title>
+</head>
+
+<body>
+  <main class="main">
+    <div class="chat_container hidden" id="chat">
+      <div class="chat_users_wrapper">
+        <div class="chat_users"></div>
+      </div>
+      <div class="chat_messages_container">
+        <div class="chat_messages"></div>
+        <div class="chat_textarea_wrapper">
+          <textarea class="chat_textarea" id="message-textarea" placeholder="Type your message here" rows="5"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="username-modal">
+      <div class="modal_description">Type your username</div>
+      <form class="modal_form">
+        <input class="form_input" type="text" name="username" autocomplete="off">
+        <button class="form_submit">Continue</button>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
